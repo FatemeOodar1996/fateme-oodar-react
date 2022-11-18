@@ -1,0 +1,80 @@
+@import url(../assets/variable.css);
+.navbar {
+    margin: 2rem 0;
+}
+.brand,
+.offcanvasBrand {
+    margin-right: 5rem;
+    font-size: 20px;
+    font-weight: 900;
+    background-image: linear-gradient(90deg, var(--clr-primary), var(--clr-secondry));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+.navLink {
+    color: var(--clr-secondry);
+}
+
+.navLink {
+    font-size: 13px;
+    color: var(--clr-gray-text);
+    font-weight: var(--font-bold);
+    transition: all 1s ease-out;
+}
+.navLink:hover {
+    color: var(--clr-primary);
+}
+.navLink > span {
+    font-size: 13px;
+    color: var(--clr-primary);
+    font-weight: var(--font-bold);
+    margin-right: 0.25rem;
+}
+.closebtn {
+    background-color: var(--clr-light-gray);
+}
+.menu {
+    color: var(--clr-primary);
+    border: none;
+    transition: all 0.3s ease-out;
+    padding: 0;
+}
+.menu:focus {
+    color: var(--clr-secondry);
+    box-shadow: none;
+}
+.menu:hover {
+    color: var(--clr-secondry);
+    box-shadow: none;
+}
+.resume {
+    border: 1px solid var(--clr-primary);
+    color: var(--clr-primary) !important;
+    transition: all 0.5s ease-out;
+    font-size: 13px;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-weight: var(--font-bold);
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.resume:hover {
+    background-color: rgba(0, 247, 255, 0.075);
+}
+@media screen and (max-width: 767px) {
+    .navLink {
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 16px;
+    }
+    .navLink:hover {
+        color: var(--clr-primary);
+    }
+    .navLink > span {
+        font-size: 16px;
+    }
+}

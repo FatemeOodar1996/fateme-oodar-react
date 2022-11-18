@@ -1,0 +1,18 @@
+:root {
+    /* color */
+    --clr-primary: #08fdd8;
+    --clr-secondry: #fd1056;
+    --clr-gray-text: #ababab;
+    --clr-light-gray: #f0f3ff;
+    --clr-dark-text: #1a1a1a;
+    --clr-main-background: #1d1d1d;
+    --clr-box-dark: #080808;
+    --clr-light-text: #fff;
+
+    /* font */
+    --font-black: 900;
+    --font-bold: 700;
+    --font-medium: 500;
+    --font-regular: 400;
+    --font-thin: 100;
+}
