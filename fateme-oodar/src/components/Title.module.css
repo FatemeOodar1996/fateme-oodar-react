@@ -1,0 +1,26 @@
+@import url(../assets/variable.css);
+.title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 3rem 0;
+    
+}
+.title > h2 {
+    color: var(--clr-light-gray);
+    font-size: calc(20px + (24 - 20) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: var(--font-black);
+}
+.title > h2 > span {
+    color: var(--clr-primary);
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    font-weight: var(--font-bold);
+}
+.line {
+    content: "";
+    display: block;
+    width: 20vw;
+    height: 1px;
+    background-color: var(--clr-light-gray);
+}

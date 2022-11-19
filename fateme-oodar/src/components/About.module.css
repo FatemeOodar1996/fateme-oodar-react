@@ -1,0 +1,18 @@
+@import url(../assets/variable.css);
+.aboutMe {
+    background-color: var(--clr-dark-text);
+}
+.description > p {
+    color: var(--clr-gray-text);
+    font-weight: var(--font-thin);
+    margin-bottom: 3rem;
+    font-size: 14px;
+}
+.image {
+    display: flex;
+    justify-content: center;
+}
+.image > img {
+    width: 70%;
+    height: fit-content;
+}
