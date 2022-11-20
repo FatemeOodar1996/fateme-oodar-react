@@ -38,3 +38,9 @@
 .email:hover {
     background-color: rgba(0, 247, 255, 0.075);
 }
+
+@media screen and (max-width: 767px) {
+    .description {
+        max-width: 90%;
+    }
+}

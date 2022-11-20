@@ -1,13 +1,13 @@
 .name {
-    padding: 1rem auto !important;
+    padding: 1rem !important;
     text-align: center;
-    font-size: 0.8rem;
-    font-weight: lighter;
+    font-size: 0.7rem;
+    font-weight: var(--font-medium);
     color: var(--clr-gray-text);
     text-align: center;
 }
 .body {
-    background-color: var(--clr-box);
+    background-color: var(--clr-dark-text);
     display: flex;
     align-items: center;
 }

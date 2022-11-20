@@ -4,11 +4,23 @@ import styles from "./Hero.module.css";
 import { BsGithub } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { IoMail } from "react-icons/io5";
+// import Particles from "react-particles-js";
 
 function Hero() {
     return (
         <div>
-            <div id="particles-js"></div>
+            {/* <Particles
+                params={{
+                    polygon: {
+                        enable: true,
+                        type: "inside",
+                        move: {
+                            radius: 10,
+                        },
+                        url: "path/to/svg.svg",
+                    },
+                }}
+            /> */}
             <Container className="d-flex flex-column flex-md-row justify-content-between align-items-center mt-md-5 pb-5 mt-0">
                 <div className={styles.heroTitle}>
                     <span>Hi , my name is</span>
