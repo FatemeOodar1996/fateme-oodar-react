@@ -1,6 +1,11 @@
 @import url(../assets/variable.css);
 .aboutMe {
     background-color: var(--clr-dark-text);
+    padding-bottom: 3rem;
+}
+.skills {
+    gap: 2rem;
+    justify-content: space-between;
 }
 .description > p {
     color: var(--clr-gray-text);
@@ -10,9 +15,29 @@
 }
 .image {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 .image > img {
     width: 70%;
     height: fit-content;
+}
+
+@media screen and (max-width: 767px) {
+    .image > img {
+        width: 60%;
+    }
+    .description > p {
+        margin: 2rem 0;
+    }
+}
+@media screen and (max-width: 991px) {
+    .skills {
+        gap: 2rem;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .image {
+        display: flex;
+        justify-content: center;
+    }
 }

@@ -1,0 +1,40 @@
+.title {
+    font-size: calc(2vw + 15px);
+    font-weight: var(--font-black);
+    background: #08fdd8;
+    background: linear-gradient(to right, #08fdd8 11%, #fd1056 89%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    margin-bottom: 1rem;
+}
+.body {
+    background-color: var(--clr-box-dark);
+    padding: 3rem 0;
+}
+.description {
+    max-width: 40%;
+    font-size: 0.8rem;
+    font-weight: var(--font-medium);
+    color: var(--clr-gray-text);
+    text-align: center;
+    margin-top: 1rem;
+}
+.email {
+    border: 1px solid var(--clr-primary);
+    color: var(--clr-primary) !important;
+    transition: all 0.5s ease-out;
+    font-size: 13px;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-weight: var(--font-bold);
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+}
+.email:hover {
+    background-color: rgba(0, 247, 255, 0.075);
+}

@@ -1,0 +1,96 @@
+
+.body {
+    padding-bottom: 3rem;
+}
+.nav {
+    border-left: 1px solid var(--clr-gray-text);
+}
+.navLink {
+    border-radius: 0;
+    border-left: 1px solid var(--clr-gray-text);
+    color: var(--clr-gray-text);
+    font-size: 14px;
+}
+.navLink:focus {
+    background-color: transparent !important;
+    border-left: 3px solid var(--clr-primary);
+    border-radius: 0 !important;
+}
+.navLink.active {
+    background-color: transparent !important;
+    border-left: 4px solid var(--clr-primary);
+    border-radius: 0 !important;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    background-color: transparent !important;
+    border-left: 4px solid var(--clr-primary);
+    border-radius: 0 !important;
+}
+.tabBody {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+.tabBody > h5 {
+    font-size: 1rem;
+    color: var(--clr-primary);
+    margin-bottom: 0;
+    line-height: 2rem;
+    font-weight: var(--font-bold);
+}
+.tabBody > h5 > span {
+    color: var(--clr-light-gray);
+    font-weight: var(--font-medium);
+    padding-left: 1rem;
+}
+.tabBody > span {
+    color: var(--clr-gray-text);
+    margin-bottom: 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+}
+.tabBody > ul {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-left: 0;
+}
+.tabBody > ul > li {
+    min-width: 130px;
+    font-size: 0.8rem;
+    font-weight: var(--font-medium);
+    color: var(--clr-gray-text);
+}
+.tabBody > ul > li::before {
+    color: var(--clr-primary);
+    content: "▹";
+    line-height: 12px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 767px) {
+    .nav {
+        padding: 0 1rem;
+        border-left: none;
+        margin-bottom: 2rem;
+    }
+    .navLink.active {
+        border-bottom: 3px solid var(--clr-primary);
+        border-left: none;
+        padding-left: 0;
+    }
+    .navLink {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid var(--clr-primary);
+        border-left: 0;
+    }
+    .navLink:focus {
+        border-bottom: 3px solid var(--clr-primary);
+        border-left: none;
+    }
+}

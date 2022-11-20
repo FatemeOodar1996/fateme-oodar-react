@@ -52,7 +52,7 @@ function OffcanvasExample() {
                                 </Nav>
                             </Offcanvas.Body>
                         </Navbar.Offcanvas>
-                        <a class={styles.resume} href="../assets/img/CVFatemeOodar.pdf" title="Resume" download>
+                        <a className={styles.resume} href="../assets/img/CVFatemeOodar.pdf" title="Resume" download>
                             Resume
                         </a>
                     </Container>

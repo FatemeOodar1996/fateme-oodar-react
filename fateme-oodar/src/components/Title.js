@@ -2,13 +2,13 @@ import React from "react";
 
 import style from "./Title.module.css";
 
-function Title() {
+function Title(props) {
     return (
         <div>
             <div className={style.title}>
                 <h2>
-                    <span>01.</span>
-                    About Me
+                    <span>{props.number}</span>
+                    {props.text}
                 </h2>
                 <span className={style.line}></span>
             </div>
