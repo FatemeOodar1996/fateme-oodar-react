@@ -1,24 +1,27 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Exprianse from "./components/Exprianse";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
+import Contact from "./pages/Contact";
+import ErrorPage from "./pages/ErrorPage";
+import MyProject from "./pages/MyProject";
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
+import Home from "./pages/Home";
 
 function App() {
     return (
-        <div>
+        <Router>
             <Navbar />
-            <Hero />
-            <About />
-            <Exprianse />
-            <Projects />
-            <Contact />
-            <Footer />
-        </div>
+            <Routes>
+                <Route path="/" element={<Home />}></Route>
+                <Route path="/Contact" element={<Contact />}></Route>
+                <Route path="/MyProject/:projectName" element={<MyProject />}></Route>
+                <Route path="/MyProject" element={<MyProject />}></Route>
+                <Route path="*" element={<ErrorPage />}></Route>
+            </Routes>
+            {/* <Footer /> */}
+        </Router>
     );
 }
 

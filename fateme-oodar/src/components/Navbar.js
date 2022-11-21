@@ -33,21 +33,21 @@ function OffcanvasExample() {
                             </Offcanvas.Header>
                             <Offcanvas.Body>
                                 <Nav className="justify-content-start flex-grow-1 gap-3 pe-3">
-                                    <Nav.Link className={styles.navLink} href="#action1">
+                                    <Nav.Link className={styles.navLink} href="/">
                                         <span>01.</span>
-                                        About
+                                        Home
                                     </Nav.Link>
                                     <Nav.Link className={styles.navLink} href="#action2">
                                         <span>02.</span>
                                         Experience
                                     </Nav.Link>
-                                    <Nav.Link className={styles.navLink} href="#action3">
+                                    <Nav.Link className={styles.navLink} href="/MyProject">
                                         <span>03.</span>
-                                        Work
+                                       Projects
                                     </Nav.Link>
-                                    <Nav.Link className={styles.navLink} href="#action4">
+                                    <Nav.Link className={styles.navLink} href="/Contact">
                                         <span>04.</span>
-                                        Contact
+                                        Contact Me
                                     </Nav.Link>
                                 </Nav>
                             </Offcanvas.Body>

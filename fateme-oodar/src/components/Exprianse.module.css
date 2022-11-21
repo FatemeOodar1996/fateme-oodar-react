@@ -9,6 +9,10 @@
     border-left: 1px solid var(--clr-gray-text);
     color: var(--clr-gray-text);
     font-size: 14px;
+    transition: 0.3s ease-out;
+}
+.navLink:hover {
+    color: var(--clr-primary);
 }
 .navLink:focus {
     background-color: transparent !important;
@@ -25,6 +29,9 @@
     border-left: 4px solid var(--clr-primary);
     border-radius: 0 !important;
 }
+/* a {
+    background-color: var(--clr-dark-text) !important;
+} */
 
 .tabBody {
     display: flex;
