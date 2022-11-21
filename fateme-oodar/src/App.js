@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
-import Expriense from "./components/Expriense";
+import Exprianse from "./components/Exprianse";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -14,7 +14,7 @@ function App() {
             <Navbar />
             <Hero />
             <About />
-            <Expriense />
+            <Exprianse />
             <Projects />
             <Contact />
             <Footer />

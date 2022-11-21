@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 import Nav from "react-bootstrap/Nav";
 import Row from "react-bootstrap/Row";
 import Tab from "react-bootstrap/Tab";
-import style from "./Expriense.module.css";
+import style from "./Exprianse.module.css";
 
 function Expriense() {
     return (
@@ -18,8 +18,10 @@ function Expriense() {
                             <Nav
                                 variant="pills"
                                 className={`row flex-row flex-md-column justify-content-around nav-pills ${style.nav}`}>
-                                <Nav.Item className="col-md-12 col-4 ps-0">
-                                    <Nav.Link className={`${style.navLink}`} eventKey="first">
+                                <Nav.Item  className={`col-md-12 col-4 ps-0 ${style.navItem}`}>
+                                    <Nav.Link
+                                        className={`${style.navLink}`}
+                                        eventKey="first">
                                         Namira
                                     </Nav.Link>
                                 </Nav.Item>
