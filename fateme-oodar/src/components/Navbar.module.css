@@ -28,6 +28,12 @@
 .navLink:hover {
     color: var(--clr-primary);
 }
+.navLink a:focus {
+    color: var(--clr-primary) !important;
+}
+/* .navLink a:focus {
+    color: var(--clr-primary);
+} */
 .navLink > span {
     font-size: 13px;
     color: var(--clr-primary);
